@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: none
+      database: postgresql
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  level:
+    org.springframework.transaction.interceptor: TRACE
+
+
